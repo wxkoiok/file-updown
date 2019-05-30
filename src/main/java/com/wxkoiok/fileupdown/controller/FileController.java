@@ -48,6 +48,7 @@ public class FileController  extends BaseController{
                 index--;
                 continue;
             }
+
             file.transferTo(localFile);
             filePathList.add("static/img/" +fileName);
 
